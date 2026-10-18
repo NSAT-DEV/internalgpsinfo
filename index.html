@@ -182,9 +182,9 @@
 <main>
   <section class="hero">
     <div class="wrap">
-      <span class="eyebrow"><span class="dot"></span> Support · v1.0</span>
+      <span class="eyebrow"><span class="dot"></span> Support · v1.1</span>
       <h1>Need a hand with <span class="accent">Internal GPS Info</span>?</h1>
-      <p class="lede">Internal GPS Info shows live GPS data using only your iPhone's own location and motion sensors — no external hardware. Most questions come down to granting location access and getting a clear view of the sky. Check the quick answers below, and if that doesn't sort it, reach out directly and we'll get back to you.</p>
+      <p class="lede">Internal GPS Info turns your iPhone's own GPS and motion sensors into a performance toolkit — live data, acceleration and braking timers, lap timing, run recording with analytics, and saved locations. No external hardware. Most questions come down to granting location access and getting a clear view of the sky. Check the quick answers below, and if that doesn't sort it, reach out directly and we'll get back to you.</p>
       <div class="hero-ctas">
         <a class="btn-primary" href="mailto:nsat-dev@pm.me?subject=Internal%20GPS%20Info%20%E2%80%94%20Support">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="m4 6 8 7 8-7"/></svg>
@@ -231,8 +231,20 @@
           <div class="answer">It shows how many position fixes per second your iPhone is currently delivering (for example <code>1.0 /s</code>). iPhones typically provide about one fix per second, so around <code>1.0 /s</code> is normal. It's a quick way to confirm live updates are flowing.</div>
         </details>
         <details>
+          <summary>How do the performance timers (0–60, ¼ mile) work?<span class="plus"></span></summary>
+          <div class="answer">Open the <strong>Timers</strong> tab and pick a mode. <strong>0–60 / ¼ mile</strong> is a standing-start run: come to a complete stop, tap <strong>Arm</strong>, then accelerate — the app records 0–30, 0–60 and 0–100 mph (or 0–50 / 0–100 / 0–160 km/h) plus your eighth- and quarter-mile times with trap speed. <strong>Roll-on</strong> times a rolling interval such as 60–130, and <strong>Braking</strong> measures the time and distance to stop from a speed you set. Your best time for each metric is saved. Because the iPhone reports roughly one fix per second, results are interpolated between fixes for sub-second resolution — ideal for comparing your own runs, though not a substitute for a dragstrip timing beam. Use the timers only where it's safe and legal.</div>
+        </details>
+        <details>
+          <summary>How does the lap timer work?<span class="plus"></span></summary>
+          <div class="answer">On the <strong>Laps</strong> tab, drive to your start/finish point and tap <strong>Set Start/Finish</strong> — this lays a line across the track at your position. Each time you cross it, the app closes the current lap and starts the next, listing your lap times with the best lap highlighted and a live timer for the lap in progress. For the cleanest line, set it while moving through it in your racing direction.</div>
+        </details>
+        <details>
+          <summary>What analytics do I get for a recorded run?<span class="plus"></span></summary>
+          <div class="answer">Open a run from the <strong>Sessions</strong> tab to see its average moving speed, elevation gain and loss, and peak lateral g, along with <strong>speed-over-time and elevation graphs</strong>. From there you can also play it back on a map or export it as GPX or CSV.</div>
+        </details>
+        <details>
           <summary>How do I record a run and play it back?<span class="plus"></span></summary>
-          <div class="answer">Once you have a fix, tap <strong>Record</strong> on the main screen — a red banner shows the elapsed time and how many points have been captured. Tap <strong>Stop</strong> to finish and name it. Open your recordings from the sessions button (the waveform icon) in the top-right, tap a run, and choose <strong>Play on Map</strong> to replay it with a track colored by speed, a moving marker, a scrubber, and a live data panel. The screen stays on while you're recording so the phone won't auto-lock and stop the run; if you do leave the app mid-run, the recording is saved automatically.</div>
+          <div class="answer">Once you have a fix, tap <strong>Record</strong> on the main screen — a red banner shows the elapsed time and how many points have been captured. Tap <strong>Stop</strong> to finish and name it. Open your recordings from the <strong>Sessions</strong> tab, tap a run, and choose <strong>Play on Map</strong> to replay it with a track colored by speed, a moving marker, a scrubber, and a live data panel. The screen stays on while you're recording so the phone won't auto-lock and stop the run; if you do leave the app mid-run, the recording is saved automatically.</div>
         </details>
         <details>
           <summary>How do I get my data out — GPX or CSV?<span class="plus"></span></summary>
